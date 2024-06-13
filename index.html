@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Site da Guesser</title>
+    <link
+      rel="stylesheet"
+      href="https://assets.codepen.io/7773162/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Guesser</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Inicio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Sobre</a>
+            </li>
+            <li class="nav__item">
+              <a href="#trick" class="nav__link">Categorias</a>
+            </li>
+            <li class="nav__item">
+              <a href="#new" class="nav__link">Recursos</a>
+            </li>
+            <a href="#" class="button button--ghost">Contato</a>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+          <img
+            src="https://assets.codepen.io/7773162/nav-img.png"
+            alt=""
+            class="nav__img"
+          />
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <!-- HOME -->
+      <section class="home container" id="home">
+        <div class="swiper home-swiper">
+          <div class="swiper-wrapper">
+            <!-- HOME SLIDER 1 -->
+            <section class="swiper-slide">
+              <div class="home__content grid">
+                <div class="home__group">
+                  <img
+                    src="assets/home1.png"
+                    alt=""
+                    class="home__img"
+                  />
+                  <div class="home__indicator"></div>
+                  <div class="home__details-img">
+                    <h4 class="home__details-title">Quiz de Inglês</h4>
+                    <span class="home__details-subtitle"
+                      >Forma divertida de aprender</span
+                    >
+                  </div>
+                </div>
+                <div class="home__data">
+                  <h3 class="home__subtitle">aprendizado em forma de jogo</h3>
+                  <h1 class="home__title">
+                    Aprenda <br />
+                    de forma <br />
+                    divertida
+                  </h1>
+                  <p class="home__description">
+                    No objetivo de tornar estudar divertido, criamos um jogo onde voce consegue se divertir
+                     e ainda aprender uma nova <strong> linguagem. </strong>
+                  </p>
+                  <div class="home__buttons">
+                    <a href="#" class="book--now">
+                      <img
+                        src="https://assets.codepen.io/7773162/svgviewer-output+%281%29_3.svg"
+                        alt=""
+                      />
+                    </a>
+                    <a href="#" class="button--link button--flex"
+                      >Comece a jogar
+                      <i class="bx bx-right-arrow-alt button__icon"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- HOME SLIDER 2 -->
+            <section class="swiper-slide">
+              <div class="home__content grid">
+                <div class="home__group">
+                  <img
+                    src="assets/home2.png"
+                    alt=""
+                    class="home__img"
+                  />
+                  <div class="home__indicator"></div>
+                  <div class="home__details-img">
+                    <h4 class="home__details-title">Ouça e responda</h4>
+                    <span class="home__details-subtitle"
+                      >Escute uma frase e a transcreva</span
+                    >
+                  </div>
+                </div>
+                <div class="home__data">
+                  <h3 class="home__subtitle">Aprendizado auditivo</h3>
+                  <h1 class="home__title">
+                    Escutando <br />
+                    também se <br />
+                    aprende
+                  </h1>
+                  <p class="home__description">
+                    Ao escutar e executar, podemos aprender de forma diferente,
+                    sempre se divertindo, afinal, irá escutar frases famosas
+                    de filmes e séries
+                  </p>
+                  <div class="home__buttons">
+                    <a href="#" class="book--now">
+                      <img
+                        src="https://assets.codepen.io/7773162/svgviewer-output+%281%29_3.svg"
+                        alt=""
+                      />
+                    </a>
+                    <a href="#" class="button--link button--flex"
+                      >Jogue Agora
+                      <i class="bx bx-right-arrow-alt button__icon"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- HOME SLIDER 3 -->
+            <section class="swiper-slide">
+              <div class="home__content grid">
+                <div class="home__group">
+                  <img
+                    src="assets/home3.png"
+                    alt=""
+                    class="home__img"
+                  />
+                  <div class="home__indicator"></div>
+                  <div class="home__details-img">
+                    <h4 class="home__details-title">Relacionando</h4>
+                    <span class="home__details-subtitle"
+                      >Observe as colunas</span
+                    >
+                  </div>
+                </div>
+                <div class="home__data">
+                  <h3 class="pumpkin__subtitle">Relacione frases e palavras</h3>
+                  <h1 class="home__title">
+                    Você <br />
+                    só tem uma <br />
+                    chance!!
+                  </h1>
+                  <p class="home__description">
+                    Relaciona as colunas entre si de acordo com os enunciados, 
+                    de forma correta, cuidado...você só tem uma chance! Qual vai 
+                    ser seu recorde? 
+                  </p>
+                  <div class="home__buttons">
+                    <a href="#" class="book--now">
+                      <img
+                        src="https://assets.codepen.io/7773162/svgviewer-output+%282%29_2.svg"
+                        alt=""
+                      />
+                    </a>
+                    <a href="#" class="button--link button--flex"
+                      >Jogue agora
+                      <i class="bx bx-right-arrow-alt button__icon"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <!-- CATEGORY -->
+      <section class="section category">
+        <h2 class="section__title">
+          Escolha sua <br />
+          Categoria
+        </h2>
+        <div class="category__container container grid">
+          <div class="category__data">
+            <img
+              src="assets/Mushroom - Super.png"
+              alt=""
+              class="category__img"
+            />
+            <h3 class="category__title">Escreva</h3>
+            <p class="category__description">
+              Prencha o que for preciso
+            </p>
+          </div>
+          <div class="category__data">
+            <img
+              src="assets/Mushroom - 1-Up.png"
+              alt=""
+              class="category__img"
+            />
+            <h3 class="category__title">Escute</h3>
+            <p class="category__description">
+              Escute e escreva o que ouviu
+            </p>
+          </div>
+          <div class="category__data">
+            <img
+              src="assets/Mushroom - Mega.png"
+              alt=""
+              class="category__img"
+            />
+            <h3 class="category__title">Relacione</h3>
+            <p class="category__description">
+              Relacione as colunas
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- ABOUT -->
+      <section class="section about" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title about__title">
+              Sobre o nosso <br />
+              Projeto
+            </h2>
+            <p class="about__description">
+              Nós queremos trazer os jogos para um ambiente de estudos, com o objetivo
+              de transformar tudo em diversão. Jogue cada categoria de forma diferenciada
+              e desenvolva as tres técnicas mais recomendadas: escutar, escrever e relacionar. 
+              
+            </p>
+            <a href="#" class="book--now">
+              <img
+                src="https://assets.codepen.io/7773162/svgviewer-output+%281%29_3.svg"
+                alt=""
+                
+              />
+            </a>
+          </div>
+          <img
+            src="assets/Block - Question 3D.png"
+            alt=""
+            class="about__img"
+          />
+        </div>
+      </section>
+      <!-- TRICK OR TREAT -->
+      <section class="section trick" id="trick">
+        <h2 class="section__title">Descubra</h2>
+        <div class="trick__container container grid">
+          <div class="trick__content">
+            <img
+              src="assets/Retro Block - Question (2).png"
+              alt=""
+              class="trick__img"
+            />
+            <h3 class="trick__title">Verbos</h3>
+            <span class="trick__subtitle">temporais</span>
+            <span class="trick__price">20 frases</span>
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+          <div class="trick__content">
+            <img
+              src="assets/Retro Block - Exclamation.png"
+              alt=""
+              class="trick__img"
+            />
+            <h3 class="trick__title">Conjugações</h3>
+            <span class="trick__subtitle">exemplos</span>
+            <span class="trick__price">20 formas</span>
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+          <div class="trick__content">
+            <img
+              src="assets/Retro Block.png"
+              alt=""
+              class="trick__img"
+            />
+            <h3 class="trick__title">Simple</h3>
+            <span class="trick__subtitle">Present</span>
+            <span class="trick__price">10 exemplos</span>
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+          <div class="trick__content">
+            <img
+              src="assets/Retro Coin.png"
+              alt=""
+              class="trick__img"
+            />
+            <h3 class="trick__title">Simple</h3>
+            <span class="trick__subtitle">Past</span>
+            <span class="trick__price">12 exemplos</span>
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+          <div class="trick__content">
+            <img
+              src="assets/Retro Block - Question.png"
+              alt=""
+              class="trick__img"
+            />
+            <h3 class="trick__title">Past</h3>
+            <span class="trick__subtitle">Continous</span>
+            <span class="trick__price">5 exempos</span>
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+          <div class="trick__content">
+            <img
+              src="assets/Retro Flower - Yoshi.png"
+              alt=""
+              class="trick__img"
+            />
+            <h3 class="trick__title">Simple</h3>
+            <span class="trick__subtitle">Future</span>
+            <span class="trick__price">10 exemplos</span>
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- DISCOUNT -->
+      <section class="section discount">
+        <div class="discount__container container grid">
+          <div class="discount__data">
+            <h2 class="discount__title">
+              50% de desconto <br />
+              nos materiais de apoio
+            </h2>
+            <a href="#" class="book--now">
+              <img
+                src="https://assets.codepen.io/7773162/svgviewer-output+%281%29_3.svg"
+                alt=""
+              />
+            </a>
+          </div>
+          <img
+            src="assets/Pipe - Red.png"
+            alt=""
+            class="discount__img"
+          />
+        </div>
+      </section>
+      <!-- NEW ARRIVALS -->
+      <section class="section new" id="new">
+        <h2 class="section__title">Recursos</h2>
+        <div class="new__container container">
+          <div class="swiper new-swiper">
+            <div class="swiper-wrapper">
+              <div class="new__content swiper-slide">
+                <div class="new__tag">
+                  <img
+                    src="https://assets.codepen.io/7773162/svgviewer-output+%286%29_1.svg"
+                    alt=""
+                  />
+                </div>
+                <img
+                  src="assets/Flower - Fire.png"
+                  alt=""
+                  class="new__img"
+                />
+                <h3 class="new__title">Livro sobre</h3>
+                <span class="new__subtitle">tempos verbais</span>
+                <div class="new__prices">
+                  <span class="new__price">R$15,00</span>
+                  <span class="new__discount">$29.99</span>
+                </div>
+                <button class="button new__button">
+                  <i class="bx bx-cart-alt new__icon"></i>
+                </button>
+              </div>
+              <div class="new__content swiper-slide">
+                <div class="new__tag">
+                  <img
+                    src="https://assets.codepen.io/7773162/svgviewer-output+%286%29_1.svg"
+                    alt=""
+                  />
+                </div>
+                <img
+                  src="assets/Luma - Blue.png"
+                  alt=""
+                  class="new__img"
+                />
+                <h3 class="new__title">Livros sobre</h3>
+                <span class="new__subtitle">conjuções</span>
+                <div class="new__prices">
+                  <span class="new__price">R$11.99</span>
+                  <span class="new__discount">R$21.99</span>
+                </div>
+                <button class="button new__button">
+                  <i class="bx bx-cart-alt new__icon"></i>
+                </button>
+              </div>
+              <div class="new__content swiper-slide">
+                <div class="new__tag">
+                  <img
+                    src="https://assets.codepen.io/7773162/svgviewer-output+%286%29_1.svg"
+                    alt=""
+                  />
+                </div>
+                <img
+                  src="assets/Luma - Green.png"
+                  alt=""
+                  class="new__img"
+                />
+                <h3 class="new__title">Livro de </h3>
+                <span class="new__subtitle">exercícios</span>
+                <div class="new__prices">
+                  <span class="new__price">$4.99</span>
+                  <span class="new__discount">$9.99</span>
+                </div>
+                <button class="button new__button">
+                  <i class="bx bx-cart-alt new__icon"></i>
+                </button>
+              </div>
+              <div class="new__content swiper-slide">
+                <div class="new__tag">
+                  <img
+                    src="https://assets.codepen.io/7773162/svgviewer-output+%286%29_1.svg"
+                    alt=""
+                  />
+                </div>
+                <img
+                  src="assets/Luma - Red.png"
+                  alt=""
+                  class="new__img"
+                />
+                <h3 class="new__title">Drive de</h3>
+                <span class="new__subtitle">aulas</span>
+                <div class="new__prices">
+                  <span class="new__price">R$24.99</span>
+                  <span class="new__discount">R$44.99</span>
+                </div>
+                <button class="button new__button">
+                  <i class="bx bx-cart-alt new__icon"></i>
+                </button>
+              </div>
+              <div class="new__content swiper-slide">
+                <div class="new__tag">
+                  <img
+                    src="https://assets.codepen.io/7773162/svgviewer-output+%286%29_1.svg"
+                    alt=""
+                  />
+                </div>
+                <img
+                  src="assets/Super Leaf - Invincibility.png"
+                  alt=""
+                  class="new__img"
+                />
+                <h3 class="new__title">Livros</h3>
+                <span class="new__subtitle">traduzidos</span>
+                <div class="new__prices">
+                  <span class="new__price">R$5.99</span>
+                  <span class="new__discount">R$12.99</span>
+                </div>
+                <button class="button new__button">
+                  <i class="bx bx-cart-alt new__icon"></i>
+                </button>
+              </div>
+              <div class="new__content swiper-slide">
+                <div class="new__tag">
+                  <img
+                    src="https://assets.codepen.io/7773162/svgviewer-output+%286%29_1.svg"
+                    alt=""
+                  />
+                </div>
+                <img
+                  src="assets/Super Leaf.png"
+                  alt=""
+                  class="new__img"
+                />
+                <h3 class="new__title">Drive dos</h3>
+                <span class="new__subtitle">audios</span>
+                <div class="new__prices">
+                  <span class="new__price">R$7.99</span>
+                  <span class="new__discount">R$14.99</span>
+                </div>
+                <button class="button new__button">
+                  <i class="bx bx-cart-alt new__icon"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- OUR NEWSLETTER -->
+      <section class="section newsletter">
+        <div class="newsletter__container container">
+          <h2 class="section__title">Entre em contato</h2>
+          <p class="newsletter__description">
+            Nós comunique em todos os casos, e se divirta. 
+          </p>
+          <form action="" class="newsletter__form">
+            <input
+              type="text"
+              placeholder="Enter your email"
+              class="newsletter__input"
+            />
+            <a href="#" class="book--now">
+              <img
+                src="https://assets.codepen.io/7773162/svgviewer-output+%281%29_3.svg"
+                alt=""
+              />
+            </a>
+          </form>
+        </div>
+      </section>
+    </main>
+    <!-- SCROLL UP -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+    </a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.2/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
